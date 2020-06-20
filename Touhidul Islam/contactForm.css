@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	background: #3c5499;
+}
+html{
+	font-size: 10px;
+}
+body{
+    animation-name: boom;
+    animation-duration: 1s;
+}
+.contactSection{
+	text-align: center;
+	width: 70%;
+	margin-left: 15%;
+	padding: 8rem 0rem;
+}
+h2 {
+    font-size: 4.2rem;
+    padding: 1rem 0rem;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .3rem;
+    font-weight: 400;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    height: .4rem;
+    background: #273a71;
+    width: 8.5rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+p {
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem 0rem;
+}
+input[type="text"] {
+    width: 40%;
+    padding: 1rem 0;
+    border: 0.1rem solid #273a71;
+    border-radius: .5rem;
+    margin-right: 1rem;
+    background: #273a71;
+    color: #fff;
+}
+
+input[type="email"] {
+    width: 40%;
+    padding: 1rem 0;
+    border: 0.1rem solid #273a71;
+    border-radius: .5rem;
+    margin: 4rem 0;
+    background: #273a71;
+    margin-left: 1rem;
+    color: #fff;
+}
+textarea {
+    width: 82%;
+    border: .1rem solid #273a71;
+    border-radius: .5rem;
+    background: #273a71;
+    color: #fff;
+    margin-top: -2rem;
+}
+
+input.btn {
+    background: #0fc4ec;
+    width: 22rem;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    color: #fff;
+    margin-top: 2rem;
+}
+form ::placeholder {
+	color: #fff;
+	opacity: 1;
+}
+.backLink {width: 100%;font-size: 3rem;margin: 3rem 0;}
+
+a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+@keyframes boom{
+    from {transform: scale(0);}
+    to{transform: scale(1);}
+}

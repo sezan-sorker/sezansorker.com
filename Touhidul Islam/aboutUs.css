@@ -1,0 +1,141 @@
+*{margin: 0;padding: 0;
+	animation-name: zoomin;
+	animation-duration: 1s;
+	transition: all 1s;
+}
+		#image1,#image2,#image3,#image4,#image5{
+			
+border: 1px solid cadetblue;
+			
+box-shadow: -1px 3px 15px 1px blue;
+			
+margin-left: 25px;
+		}
+		#image1{height: 400px;}
+		#image2{height: 428px;}
+		#image3{height: 611px;}
+		#image4{height: 628px;}
+		#image5{height: 533px;}
+
+		#image1:hover{
+			cursor: pointer;
+			background: linear-gradient(#00000070, #00000070) , linear-gradient(#00000070, #00000070) , url("profile.jpg");
+
+		}
+		#sezan{transition: all 1s;}
+#sezan:hover >span{display: block;}
+#sezan:hover{background: black;color:red;}
+#sezan span{display: none;}
+
+#makdad{transition: all 1s;}
+#makdad:hover >span{display: block;}
+#makdad:hover{background: black;color: red;}
+#makdad span{display: none;}
+
+#shihab{transition: all 1s;}
+#shihab:hover >span{display: block;}
+#shihab:hover{background: black;color: red;}
+#shihab span{display: none;}
+
+#nadim{transition: all 1s;}
+#nadim:hover >span{display: block;}
+#nadim:hover{background: black;color: red;}
+#nadim span{display: none;}
+
+#sohid{transition: all 1s;}
+#sohid:hover >span{display: block;}
+#sohid:hover{background: black;color: red;}
+#sohid span{display: none;}
+
+
+
+
+		#allblocks{
+			width: 1170px;
+			margin: auto;
+			padding: 20px;
+		}
+		h2{
+    	text-align: center;
+    	color:#f51045f5;
+    	font-size: 70px;
+    	font-family: arial;
+    	text-transform: uppercase;
+    	padding: 10px;
+    	width: 100%;
+    	text-decoration: underline;
+    	padding-bottom: 10px;
+    	transition: all 1s;
+    	}
+span{color: #14f311cc;}
+h1{    margin-bottom: 20px;
+    border-bottom: 2px solid indigo;
+    padding-bottom: 20px;}
+}
+
+
+#content:hover{background: transparent;color: white;transform: translateY(-15px)}
+h2:hover{background: green; color: red;transform: scale(1.1);}
+#aboutright{
+	width: 700px;
+	float: right;
+}
+#aboutright, #image1,#image2,#image3,#image4,#image5 {display: inline-block;}
+#aboutcontentall{
+	padding: 30px 0px;
+	overflow: hidden;
+	border: 3px solid #2d36a7c7;
+	    box-shadow: -1px -1px 30px 1px black;
+}
+#about_p{
+	    font-size: 16px;
+    color: #3c2121;
+    font-family: sans-serif;
+}
+
+footer{
+	background: #444;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	transition: all 1s;
+}
+
+#menubar{
+	width: 100%;
+	height: 100px;
+	background: #333435;
+	border-bottom: none;
+}
+#menubar ul{
+	display: flex;
+	padding-top: 30px;
+	float: right;
+	list-style: none;
+}
+#menubar ul li{
+	padding: 10px;
+	border-radius: 5px;
+	transition: all 0.7s;
+}
+#menubar ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 5px;
+}
+#menubar ul li:hover{
+	border:1px solid darkblue;
+	background: cadetblue;
+	padding:11px;
+	border-radius: 6px; 
+}
+footer:hover{
+	background: blue;
+}
+h1{font-size: 48px;}
+@keyframes zoomin{
+	from {transform: rotate(180deg);}
+	to{transform:  rotate(0deg);}
+}
